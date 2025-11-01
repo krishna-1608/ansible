@@ -1,0 +1,42 @@
+# list of student obejects 
+- name : "krishna chaitanya.S"
+  Dob : 16-08-93
+  age : 30
+  # list of objects 
+  address :
+  - doorNo: 4-32
+    street: "krishnai nagar"
+    city: hyderabd
+    pin: 53467
+    type: current
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: current
+  # list of strings
+  skills:
+  - java
+  - devops
+  - cloud
+
+- name : "krishna.S"
+  Dob : 16-08-99
+  age : 23
+  # list of objects 
+  address :
+  - doorNo: 4-32
+    street: "krishnai nagar"
+    city: hyderabd
+    pin: 53467
+    type: current
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: current
+  # list of strings
+  skills:
+  - java
+  - devops
+  - cloud

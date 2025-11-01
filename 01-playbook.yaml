@@ -1,0 +1,5 @@
+- name : check the ping status
+  host : node 
+  task :
+  - name : ping
+    ansible.builtin.ping:
