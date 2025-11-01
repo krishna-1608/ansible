@@ -11,5 +11,5 @@
   tasks:
   - name : print creditionals 
     ansible.builtin.debug:
-    msg : "Hello, username is: {{ username }}, passwrod is: {{ passwrod }}" 
+     msg : "Hello, username is: {{ username }}, passwrod is: {{ passwrod }}" 
   
