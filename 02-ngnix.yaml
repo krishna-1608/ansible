@@ -6,7 +6,7 @@
     name: ngnix
     state: present
 
-  - name: start service 
+  - name: start ngnix 
     ansible.builtin.service:
     name: ngnix
     state: started 
