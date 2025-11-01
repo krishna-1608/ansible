@@ -3,7 +3,7 @@
   connection: local
   vars:
     Course: "devops with Aws"  # string
-    Duratioin: 120 # number 
+    Duration: 120 # number 
     is_live: true # boolean
 
     #list
