@@ -1,15 +1,15 @@
-- name : install package
-  hosts : node
-  tasks :
-  - name : install ngnix
+- name: install package
+  hosts: node
+  tasks:
+  - name: install ngnix
     ansible.builtin.package:
-    name : ngnix
-    state : present
+    name: ngnix
+    state: present
 
-  - name : start service 
+  - name: start service 
     ansible.builtin.service:
-    name : ngnix
-    state : started 
-    enable : yes
-    
+    name: ngnix
+    state: started 
+    enable: yes
+
 
