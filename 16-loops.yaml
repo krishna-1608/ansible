@@ -6,8 +6,8 @@
   - name: install package
     ansible.builtin.package:
       name: "{{ item }}"
-      state: latest 
+      state: latest
     loop:
-    - ngnix
-    - python
-    - gzip
+    - nginx
+    - mysql
+    - zip
