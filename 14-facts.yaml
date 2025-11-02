@@ -1,6 +1,7 @@
 - name: facts
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: install nginx if redhat
     ansible.builtin.dnf:
@@ -12,4 +13,3 @@
       name: ngnix
       state: latest
     when: ansible_os_family == "Debian"
-    
