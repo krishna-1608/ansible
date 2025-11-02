@@ -1,0 +1,13 @@
+- name: loops fof package install
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: install package
+    ansible.builtin.package:
+      name: {{ item }}
+      state: latest 
+    loop:
+    - ngnix
+    - python
+    - gzip
