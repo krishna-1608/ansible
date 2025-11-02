@@ -1,11 +1,11 @@
-- name: loops fof package install
+- name: loops for package install
   hosts: local
   connection: local
   become: yes
   tasks:
   - name: install package
     ansible.builtin.package:
-      name: {{ item }}
+      name: "{{ item }}"
       state: latest 
     loop:
     - ngnix
